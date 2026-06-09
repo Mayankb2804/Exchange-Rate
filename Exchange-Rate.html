@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curreny Exchanger</title>
+    <link rel="stylesheet" href="Exchange-Rate.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Curreny Convertor</h1>
+        <form>
+            <div class="amount">
+            <input value="100" type="text" class = "input" />
+            </div>
+        
+    <div class="from"> 
+        <p>From </p>
+        <img src="https://flagsapi.com/US/flat/64.png">
+        <select name = "from" class = "fromselect"> 
+            <option value="US" selected>US</option>
+        </select>
+    </div>
+    <div class="to">
+        <p>To </p>
+        <img src="https://flagsapi.com/IN/flat/64.png">
+        <select name = "to" class = "toselect">
+            <option value="IN" selected>IN</option>
+        </select>
+    </div>
+    <div class="msg-container">
+        <p class = "final">1USD = 83IN</p>
+    </div>
+    <button class = "convert">Convert</button>
+    </form>
+    </div>
+    <script src="Exchange-Rate.js"></script>
+</body>
+</html>
